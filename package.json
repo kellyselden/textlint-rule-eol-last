@@ -1,0 +1,22 @@
+{
+  "name": "textlint-rule-eol-last",
+  "version": "0.0.0",
+  "description": "textlint rule to require or disallow newline at the end of files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/textlint-rule-eol-last.git"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/textlint-rule-eol-last/issues"
+  },
+  "homepage": "https://github.com/kellyselden/textlint-rule-eol-last#readme"
+}
