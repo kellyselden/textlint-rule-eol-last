@@ -15,6 +15,10 @@ function reporter(context, {
     [Syntax.Document](node) {
       let text = getSource(node);
 
+      if (!text) {
+        return;
+      }
+
       let match = text.match(/\r?\n$/m);
 
       if (newline === 'always' && !match) {
