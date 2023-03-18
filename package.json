@@ -22,7 +22,7 @@
   "author": "Kelly Selden",
   "license": "MIT",
   "devDependencies": {
-    "@kellyselden/node-template": "3.0.0",
+    "@kellyselden/node-template": "3.0.2",
     "chai": "^4.3.6",
     "eslint": "^8.16.0",
     "eslint-config-sane": "^1.0.2",
