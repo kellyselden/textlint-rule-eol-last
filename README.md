@@ -6,7 +6,7 @@
 
 Options:
 
-```
+```js
 {
   rules: {
     'eol-last': {
