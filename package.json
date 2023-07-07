@@ -42,6 +42,6 @@
   },
   "homepage": "https://github.com/kellyselden/textlint-rule-eol-last#readme",
   "engines": {
-    "node": ">=14.15"
+    "node": ">=16.13"
   }
 }
