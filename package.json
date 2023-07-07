@@ -34,7 +34,7 @@
     "mocha": "^10.2.0",
     "mocha-helpers": "^7.1.0",
     "renovate-config-standard": "2.1.2",
-    "standard-node-template": "3.0.0",
+    "standard-node-template": "3.3.0",
     "textlint-tester": "^5.3.5"
   },
   "bugs": {
@@ -42,6 +42,6 @@
   },
   "homepage": "https://github.com/kellyselden/textlint-rule-eol-last#readme",
   "engines": {
-    "node": ">=14.15"
+    "node": ">=16.13"
   }
 }
