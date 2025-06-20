@@ -34,7 +34,7 @@
     "mocha": "^10.7.0",
     "mocha-helpers": "^9.0.1",
     "renovate-config-standard": "2.1.2",
-    "standard-node-template": "6.0.0",
+    "standard-node-template": "6.1.0",
     "textlint-tester": "^5.3.5"
   },
   "bugs": {
