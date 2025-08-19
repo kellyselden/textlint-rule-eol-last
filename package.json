@@ -35,7 +35,7 @@
     "mocha-helpers": "^10.0.0",
     "renovate-config-standard": "2.3.0",
     "standard-node-template": "7.2.0",
-    "textlint-tester": "^13.0.0"
+    "textlint-tester": "^14.0.0"
   },
   "bugs": {
     "url": "https://github.com/kellyselden/textlint-rule-eol-last/issues"
