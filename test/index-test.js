@@ -1,6 +1,6 @@
 'use strict';
 
-const TextLintTester = require('textlint-tester');
+const { default: TextLintTester } = require('textlint-tester');
 const tester = new TextLintTester();
 const rule = require('../src');
 
