@@ -7,14 +7,14 @@ const rule = require('../src');
 tester.run('eol-last', rule, {
   valid: [
     {
-      text: ''
+      inputPath: 'test/fixtures/empty-string.txt'
     },
     {
       text: `foo
 `
     },
     {
-      text: '',
+      inputPath: 'test/fixtures/empty-string.txt',
       options: {
         newline: 'never'
       }
