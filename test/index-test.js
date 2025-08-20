@@ -7,18 +7,14 @@ const rule = require('../src');
 tester.run('eol-last', rule, {
   valid: [
     {
-      // https://github.com/textlint/textlint/issues/1697
-      // text: ''
-      inputPath: 'test/fixtures/empty-string.txt'
+      text: ''
     },
     {
       text: `foo
 `
     },
     {
-      // https://github.com/textlint/textlint/issues/1697
-      // text: ''
-      inputPath: 'test/fixtures/empty-string.txt',
+      text: '',
       options: {
         newline: 'never'
       }
