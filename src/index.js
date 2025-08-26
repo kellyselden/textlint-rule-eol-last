@@ -1,14 +1,14 @@
 'use strict';
 
 function reporter(context, {
-  newline = 'always'
+  newline = 'always',
 }) {
   let {
     Syntax,
     getSource,
     report,
     RuleError,
-    fixer
+    fixer,
   } = context;
 
   return {
@@ -25,21 +25,21 @@ function reporter(context, {
         report(node, new RuleError('Newline required at end of file but not found.', {
           index: text.length,
           fix: fixer.replaceTextRange([text.length, text.length], `
-`)
+`),
         }));
       }
 
       if (newline === 'never' && match) {
         report(node, new RuleError('Newline not allowed at end of file.', {
           index: match.index,
-          fix: fixer.replaceTextRange([match.index, match.index + match[0].length], '')
+          fix: fixer.replaceTextRange([match.index, match.index + match[0].length], ''),
         }));
       }
-    }
+    },
   };
 }
 
 module.exports = {
   linter: reporter,
-  fixer: reporter
+  fixer: reporter,
 };
