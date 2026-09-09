@@ -1,6 +1,6 @@
 {
   "name": "textlint-rule-eol-last",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "textlint rule to require or disallow newline at the end of files",
   "keywords": [
     "eslint",
